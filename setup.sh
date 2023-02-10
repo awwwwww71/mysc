@@ -237,7 +237,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 clear
 wget https://raw.githubusercontent.com/mymasway/mysc/main/xray/ins-xray.sh && chmod +x ins-xray.sh && ./ins-xray.sh
-wget https://raw.githubusercontent.com/mymasway/mysc/main/dll/bbr.sh && chmod +x set-br.sh && ./set-br.sh
+wget https://raw.githubusercontent.com/mymasway/mysc/main/dll/bbr.sh && chmod +x bbr.sh && ./bbr.sh
 wget https://raw.githubusercontent.com/mymasway/mysc/main/ssh/ins-sshws.sh && chmod +x ins-sshws.sh && ./ins-sshws.sh
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "$green          Install BOT XOLPANEL              $NC"
@@ -245,7 +245,7 @@ echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━�
 sleep 2
 clear
 #install ohp
-#wget https://raw.githubusercontent.com/myridwan/src/ipuk/xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh
+#wget https://raw.githubusercontent.com/mymasway/src/main/xolpanel.sh && chmod +x xolpanel.sh && ./xolpanel.sh
 clear
 cat> /root/.profile << END
 # ~/.profile: executed by Bourne-compatible login shells.
