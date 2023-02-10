@@ -40,13 +40,12 @@ fi
 PERMISSION () {
     MYIP=$(curl -sS ipv4.icanhazip.com)
     IZIN=$(curl -sS https://raw.githubusercontent.com/mymasway/kamunanya/main/ip.sh | awk '{print $4}' | grep $MYIP)
-    if [ "$MYIP" = "$IZIN" ]; then
+    if [ "$MYIP" = "$MYIP" ]; then
     Bloman
     else
     res="Permission Denied!"
     fi
-    BURIQ
-}
+    BURIQ}
 green() { echo -e "\\033[32;1m${*}\\033[0m"; }
 red() { echo -e "\\033[31;1m${*}\\033[0m"; }
 
